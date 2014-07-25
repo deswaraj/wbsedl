@@ -1,0 +1,3 @@
+>56544 row in consumer_master.
+
+>inserting kulti data.finished on 7:29 am june 23 2014.

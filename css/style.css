@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+body,html{
+		height:100%;
+	}
+.bs-docs-container {
+	background-color: #fff;
+	margin: 30px auto;
+	padding: 40px 5px;
+	box-shadow: -1px 0px 4px #B5B5B5;
+	border-radius: 3px;
+}
+.logout {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+.logout_btn {
+	background: url(../images/logout.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	font-size: 0;
+	display: inline-block;
+	border: none;
+}
+.logout_btn:hover {
+	background: url(../images/logout_hv.png) no-repeat;
+}
+.white-bg {
+	background: #fff;
+	padding: 20px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a.logo {
+	color: #2E2E2E;
+	font-size: 23px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+}
+a.logo span {
+	color: #FF6C60;
+}
+footer {
+	background:#3c3c3c;
+	background-image: -webkit-linear-gradient(top, #3c3c3c 0, #222 100%);
+	background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+	background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+padding:20px 0;
+
+}
+
+.white{
+		color:#fff;
+	}
+	
+.ft_logo{
+		color:#fff;
+		text-decoration:none;
+		font-family: 'Open Sans', sans-serif;
+		text-transform:uppercase;
+	}
+.ft_logo span{
+		color:#8B8B8B;
+	}
+.ft_logo:hover,.ft_logo:hover span{
+		color:#fff;
+		text-decoration:none;
+	}	
+	
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -70px;
+  /* Pad bottom by footer height */
+  padding: 0 0 70px;
+}	
